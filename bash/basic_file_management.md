@@ -16,7 +16,7 @@
 	* `cat`, `less`
 	* `file` shows type 
 * File and directory operations
-	* Create: `touch`, `mkdir1
+	* Create: `touch`, `mkdir`
 	* Copy: `cp`
 	* Move: `mv`
 	* Delete: `rm`, `rmdir`
