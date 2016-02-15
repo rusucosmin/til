@@ -2,8 +2,8 @@
 >Today I learned
 
 ## Categories
-	*[Bash](#bash)
-	*[Markdown](#markdown)
+* [Bash](#bash)
+* [Markdown](#markdown)
 
 ### Bash
 
