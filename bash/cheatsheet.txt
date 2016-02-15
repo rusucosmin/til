@@ -1,0 +1,11 @@
+ls -> prints the contents of the current directory
+cd -> navigate throw different directories
+cat -> prints the content of a file
+less -> prints the content of a file with a nice next and back page features
+reset -> reset the terminal
+file -> prints the information about a file
+mv
+cp
+rm (-r)
+mkdir
+
