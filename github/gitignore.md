@@ -17,7 +17,7 @@ $ git rm --cached
 
 ## Global .gitignore
 
-1. Create a .gitignore file file at `~/.gitignore_global`
+1. Create a `.gitignore` file file at `~/.gitignore_global`
 2. Open terminel
 3. Type:
 
