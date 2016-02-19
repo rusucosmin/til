@@ -1,0 +1,5 @@
+%Function to return the square and the cube of a number
+function [y1, y2] = squareAndCubeThisNumber(x)
+
+y1 = x^2;
+y2 = x^3;
