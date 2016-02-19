@@ -60,14 +60,14 @@
 
 - `for` loops example:
 	
-```bash
+```matlab
 v = zeros(10, 1)
 for i = 1:10,
 	v(i) = 2^i;
 end;
 ```
 
-```bash
+```matlab
 indices = 1:10;
 for i=indices,
 	disp(i);
@@ -76,7 +76,7 @@ end;
 
 - `while` loops example
 
-```mathlab
+```matlab
 i = 1;
 while i <= 5,
 	v(i) = 100;
@@ -86,7 +86,7 @@ end;
 
 - Simple Octave function
 
-```mathlab
+```matlab
 %Octave function to get the square of a number
 function y = squareThisNumber(x)
 
