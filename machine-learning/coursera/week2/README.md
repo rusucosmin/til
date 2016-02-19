@@ -76,7 +76,7 @@ end;
 
 - `while` loops example
 
-```bash
+```mathlab
 i = 1;
 while i <= 5,
 	v(i) = 100;
@@ -86,7 +86,7 @@ end;
 
 - Simple Octave function
 
-```
+```mathlab
 %Octave function to get the square of a number
 function y = squareThisNumber(x)
 
