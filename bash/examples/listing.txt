@@ -1,0 +1,8 @@
+c.in
+c.txt
+listing.txt
+o.in
+o.txt
+s.in
+story.txt
+s.txt
