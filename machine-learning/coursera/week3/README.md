@@ -10,4 +10,4 @@
 	- Email: Spam / Not Spam?
 	- Online Transaction: Fraudulent: Yes / No?
 	- Tumor: Malignant / Benign
-- y `$\in$`
+- y $\in$
