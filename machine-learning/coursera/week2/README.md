@@ -1,12 +1,13 @@
-#Week2
+# Week2 - Linear Regression with Multiple Variables
 
 - Include the first assignment
 - Octave tutorial
+- Implemented linear regression with Multiple Variables in Octave
 
 
-##Octave tutorial
+## Octave tutorial
 
-###Basics
+### Basics
 
 - `%` -> the beginning of the comment block (like `#` in Python or `//` in C++)
 - `size var`
@@ -56,7 +57,7 @@
 - `axis[minX, maxX, minY, maxY]` -> sets the x-axis interval to `[minX, maxX]` and `[minY, maxY]`
 - `clf` -> clears a figure
 
-###Control statements: for, while, if statement and functions
+### Control statements: for, while, if statement and functions
 
 - `for` loops example:
 	
