@@ -52,3 +52,50 @@
 	- For higher order polynomials we can get different complex forms for the decision boundary (like an ellipse or a peanut)
 
 
+### Cost function and Gradient Descent
+
+- We cannot use the cost function from Linear regression since we will have a non-convex function J(theta) and we cannot converge to the global minimum
+- Goal: take a cost function `J(theta)` such that it is convex
+- Logistic regression cost function:
+	```
+	Cost(h_theta(x), y) = {
+		-log(h_theta(x)) if y = 1
+		-log(1 - h_theta(x)) if y = 0
+	}
+	```
+- `J(theta) = 1 / m * sum(Cost(h_theta(xi), yi))`
+- Where `Cost(h_theta(x), y) = -y * log(h_theta(x)) - (1 - y) * log(1 - h_theta(x))` (since y is either 1 or 0)
+- Want min_theta(J(theta))
+- Use `Gradient Descent` algorithm
+	- Where the partial derivative is:
+		(d / dtheta_j) * J(theta) = 1 / m * sum(h_theta(x_i) - y_i)* xj_i
+	- Which is exactly like linear regression!
+	- Is it the same algorithm?
+	- The only difference is the definition of `h_theta` function
+		- For linear regression: `h_theta(x) = Theta' * x`
+		- For logistic regression: `h_theta(x) = 1 / (1 + e^(-theta' * x))`
+
+### Advanced Optimization
+
+- Given theta, if we have code that can compute
+	- J(theta)
+	- d / (d * theta_j) * J(theta) for j = 0..n
+
+- Optimization algorithms:
+	- Gradient descent
+	- Conjugate gradient
+	- BFGS
+	- L-BFGS
+	- For the last three:
+		- Advantages:
+			- No need to manually pick `alpha`
+			- Often faster than gradient descent
+		- Disadvantages
+			- More complex
+
+###Multiple Classification:
+- One vs all (One vs any)
+- Basically we will have `theta_i` functions
+- Now, we just have to take the maximum among all of them.
+- Just consider one fixed value for y (from 1 to k) and the rest of values consider to be 'negative'.
+- So, now we actually have a simple 0/1 classifcation.
