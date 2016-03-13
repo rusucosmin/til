@@ -4,3 +4,11 @@ My notes from the online udacity [course](https://www.udacity.com/course/viewer#
 
 - `diff`
     - `-u` option -> makes the difference lines easier to read
+
+- `git diff commit_id1 commit_id2`
+    - shows the difference between the two commits
+
+- `git log --status`
+    - prints a quick preview of every diff a commit have made
+
+
