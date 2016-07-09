@@ -4,4 +4,4 @@
     - Read chapter 'Behavioral Questions' on CTCI
     - Implemented the problems from 'Arrays and strings'
     - Particiated in SRM694 - Div2: solved 2/3
-    - Started the Java tutorial from Codecademy
+    - Started (and finished) the Java tutorial from Codecademy
