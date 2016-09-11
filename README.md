@@ -16,6 +16,9 @@
 * [Markdown](#markdown)
 * [Ruby](#ruby)
 
+### Statistics
+- [Introduction to Statistics](https://www.udacity.com/course/intro-to-statistics--st101)
+
 ### Bash
 
 ### Cracking the coding interview
