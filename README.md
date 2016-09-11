@@ -19,6 +19,17 @@
 ### Statistics
 - [Introduction to Statistics](https://www.udacity.com/course/intro-to-statistics--st101)
 
+### Machine Learning
+- [TensorFlow](https://www.tensorflow.org/versions/r0.10/tutorials/index.html)
+
+### Javascript
+- [JavaScript-The Definitive Guide - O'REILLY](http://docstore.mik.ua/orelly/webprog/jscript/)
+
+### Node.js
+- [Node.Js - TutorialsPoint](http://www.tutorialspoint.com/nodejs/)
+- [Ryan Dahl's presentation](https://www.youtube.com/watch?v=jo_B4LTHi3I)
+- [Ryan Dahl - Google Talks](https://www.youtube.com/watch?v=F6k8lTrAE2g)
+
 ### Bash
 
 ### Cracking the coding interview
@@ -28,17 +39,6 @@
 
 ### Java
 
-### Machine Learning
-- [TensorFlow](https://www.tensorflow.org/versions/r0.10/tutorials/index.html)
-
 ### Markdown
 
 ### Ruby
-
-### Javascript
-- [JavaScript-The Definitive Guide - O'REILLY](http://docstore.mik.ua/orelly/webprog/jscript/)
-
-### Node.js
-- [Node.Js - TutorialsPoint](http://www.tutorialspoint.com/nodejs/)
-- [Ryan Dahl's presentation](https://www.youtube.com/watch?v=jo_B4LTHi3I)
-- [Ryan Dahl - Google Talks](https://www.youtube.com/watch?v=F6k8lTrAE2g)
