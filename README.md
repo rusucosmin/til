@@ -18,6 +18,7 @@
 
 ### Statistics
 - [Introduction to Statistics](https://www.udacity.com/course/intro-to-statistics--st101)
+- Appendix C - Cormen
 
 ### Machine Learning
 - [TensorFlow](https://www.tensorflow.org/versions/r0.10/tutorials/index.html)

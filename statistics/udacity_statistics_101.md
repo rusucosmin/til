@@ -11,3 +11,7 @@
     - Pie Chart
 
 2. Simpson's Paradox
+
+3. Probability
+    - Conditional Probability
+        - Total Probability
