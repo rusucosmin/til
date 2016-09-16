@@ -15,3 +15,12 @@
 3. Probability
     - Conditional Probability
         - Total Probability
+        - P(Test) = P(Test | Disease) * P(Disease)
+            + P(Test | ~Disease) * P(~Disease)
+    - Bayes Rule
+        - P(c | pos) = P(c) * P(pos | c) / P(pos)
+        - P(~c | pos) = P(~c) * P(pos | ~c) / P(pos)
+    - Probability Distribution
+    - Correlation vs Causation
+    - Estimator
+    - Mean, Median and Mode
