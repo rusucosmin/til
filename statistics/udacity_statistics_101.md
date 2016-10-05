@@ -24,3 +24,11 @@
     - Correlation vs Causation
     - Estimator
     - Mean, Median and Mode
+
+4. Variance
+    - How 'spread' the data is
+    - (SUM((x[i] - MEAN) ^ 2) / N)
+    - Standard score: z = (X - mean) / var
+
+5. Maximum likely estimator
+    - Proof
