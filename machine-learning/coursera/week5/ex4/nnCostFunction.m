@@ -73,13 +73,49 @@ h_theta = a3;
 
 yVec = zeros(m, num_labels);
 
+%convert label to matrice
 for i = 1:m
     yVec(i, y(i)) = 1;
 end
 
 J = 1 / m * sum(sum(-yVec .* log(h_theta) - (1 - yVec) .* (log(1 - h_theta))));
 
+%add regularization
+
+params = [Theta1(:, 2:end)(:); Theta2(:,2:end)(:)];
+J += lambda / (2 * m) * sum(params .^ 2);
+
 % -------------------------------------------------------------
+
+DELTA_1 = zeros(size(Theta1_grad));
+DELTA_2 = zeros(size(Theta2_grad));
+
+for t = 1:m
+    a_1 = a1(t, :);
+    z_2 = z2(t, :);
+    a_2 = a2(t, :);
+    z_3 = z3(t, :);
+    a_3 = a3(t, :);
+    y_t = yVec(t, :);
+
+    delta_3 = a_3 - y_t;
+
+    delta_2 = delta_3 * Theta2;
+    delta_2 = delta_2(2:end);
+    delta_2 = delta_2 .* sigmoidGradient(z_2);
+
+    DELTA_1 = DELTA_1 + delta_2' * a_1;
+    DELTA_2 = DELTA_2 + delta_3' * a_2;
+end
+
+Theta1_grad = DELTA_1 / m + lambda / m * Theta1;
+Theta2_grad = DELTA_2 / m + lambda / m * Theta2;
+
+Theta1_grad(:,1) = DELTA_1(:,1) / m;
+Theta2_grad(:,1) = DELTA_2(:,1) / m;
+
+
+
 
 % =========================================================================
 
