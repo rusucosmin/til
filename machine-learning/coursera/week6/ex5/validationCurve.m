@@ -48,7 +48,4 @@ end
 
 % =========================================================================
 
-theta = trainLinearReg(X, y, 3);
-error_best = linearRegCostFunction(Xval, yval, theta, 3)
-
 end
