@@ -1,0 +1,3 @@
+[submodule "machine-learning/word-rnn-tensorflow"]
+	path = machine-learning/word-rnn-tensorflow
+	url = https://github.com/hunkim/word-rnn-tensorflow
