@@ -1,0 +1,38 @@
+
+   *-----------------------------------------------------*
+   | Use exceptions for exceptional problems.            |
+   |                                                     |
+   | Exceptions can suffer from all the readability and  |
+   | maintainability problems of classic spaghetti code. |
+   | Reserve exceptions for exceptional things.          |
+   *-----------------------------------------------------*
+          o
+           o   ^__^
+            o  (oo)\_______
+               (__)\       )\/\
+                   ||----w |
+                   ||     ||
+
+   [e]  <empty buffer>
+
+   MRU
+
+   [0]  ~/til/ruby/learning-ruby/hello_input.rb
+   [1]  ~/til/ruby/learning-ruby/echo_hello_world.rb
+   [2]  ~/til/ruby/learning-ruby/hello_martz.rb
+   [3]  ~/til/ruby/learning-ruby/README.md
+   [4]  ~/courses/cryptography/config/routes.rb
+   [5]  ~/courses/cryptography/app/controllers/application_controller.rb
+   [6]  ~/courses/cryptography/config/initializers/application_controller_renderer.rb
+   [7]  ~/courses/cryptography/app/assets/javascripts/application.js
+   [8]  ~/courses/cryptography/app/assets/javascripts/cable.js
+   [9]  ~/courses/cryptography/app/models/application_record.rb
+
+   MRU /Users/rusucosmin/til/ruby/learning-ruby
+
+   [10] hello_input.rb
+   [11] echo_hello_world.rb
+   [12] hello_martz.rb
+   [13] README.md
+
+   [q]  <quit>
