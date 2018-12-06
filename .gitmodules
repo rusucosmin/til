@@ -1,3 +1,9 @@
 [submodule "machine-learning/word-rnn-tensorflow"]
 	path = machine-learning/word-rnn-tensorflow
 	url = https://github.com/rusucosmin/word-rnn-tensorflow
+[submodule "docker/lauzhack-docker-workshop"]
+	path = docker/lauzhack-docker-workshop
+	url = https://github.com/ageapps/lauzhack-docker-workshop
+[submodule "docker/docker-node-mongo"]
+	path = docker/docker-node-mongo
+	url = https://github.com/ageapps/docker-node-mongo
