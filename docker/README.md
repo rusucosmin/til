@@ -2,6 +2,8 @@
 
 Workshop on Docker: https://lauzhack.com/workshops
 
+Presentation: https://speakerdeck.com/adrian_gespi/intro-to-docker-lauzhack-days
+
 ## Example of Docker Image
 ```
 FROM node:9.2
