@@ -1,5 +1,9 @@
 # Lifestyle
 
+## Invest
+
+[The tech workers who are engineering a mid-30s retirement](https://story.californiasunday.com/tech-retiree)
+
 ## Adhoc
 
 [https://www.quora.com/What-can-I-learn-know-right-now-in-10-minutes-that-will-be-useful-for-the-rest-of-my-life](https://www.quora.com/What-can-I-learn-know-right-now-in-10-minutes-that-will-be-useful-for-the-rest-of-my-life)
