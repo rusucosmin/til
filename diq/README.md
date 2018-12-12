@@ -1,4 +1,5 @@
-# Data Interview Questions
+# [Data Interview Questions](https://www.interviewqs.com/)
+
 
 ## Question 10 - Calculating student attendance using SQL
 Given the following table schemas, how would you figure out the overall attendance rate for each grade on 2018-03-12? Answers will be provided in SQL for premium users.
@@ -42,3 +43,18 @@ song_length	integer	length of song in seconds
 
 Question:
 Can you write a SQL query to estimate the average number of hours a user spends listening to music daily?
+
+## Question 66 - Matrix frequencies
+
+Given a matrix of order m\*n then the task is to find the frequency of even and odd numbers in matrix.
+
+For example, given the following inputs:
+```
+m = 2, n = 3
+[[ 9, 11, 3 ],
+[ 4, 12, 2 ]]
+```
+
+Your function should return the following output:
+Frequency of odd #: 3
+Frequency of even #: 3
