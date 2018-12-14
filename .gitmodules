@@ -7,3 +7,6 @@
 [submodule "docker/docker-node-mongo"]
 	path = docker/docker-node-mongo
 	url = https://github.com/ageapps/docker-node-mongo
+[submodule "rl/osim-rl"]
+	path = rl/osim-rl
+	url = https://github.com/stanfordnmbl/osim-rl
