@@ -8,6 +8,7 @@
 - [HashRocket](https://til.hashrocket.com/)
 
 ## Categories
+* [AdHoc](#adhoc)
 * [Bash](#bash)
 * [Cracking the coding interview](#ctci)
 * [Github](#github)
@@ -15,6 +16,10 @@
 * [Machine-Learning](#ml)
 * [Markdown](#markdown)
 * [Ruby](#ruby)
+
+### AdHoc
+- [Fascinating facts](https://factourism.com)
+- [Destroy All Software Screencasts](https://www.destroyallsoftware.com/screencasts/catalog)
 
 ### Statistics
 - [Introduction to Statistics](https://www.udacity.com/course/intro-to-statistics--st101)

@@ -1,0 +1,13 @@
+In statistical hypothesis testing, explain the difference between Type I and Type II error. You should be able to provide an example on the fly here.
+
+Type I error is a false positive error
+Type II error is a true negative error
+
+Example:
+Hypothesis: "Adding water to toothpaste protects against cavities."
+
+Null hypothesis (H0): "Adding water does not make toothpaste more effective in fighting cavities."
+
+This null hypothesis is tested against experimental data with a view to nullifying it with evidence to the contrary.
+
+A type I error occurs when detecting an effect (adding water to toothpaste protects against cavities) that is not present. The null hypothesis is true (i.e., it is true that adding water to toothpaste does not make it more effective in protecting against cavities), but this null hypothesis is rejected based on bad experimental data or an extreme outcome of chance alone.
