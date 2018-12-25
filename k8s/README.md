@@ -8,3 +8,5 @@
 * Intro to Kubernetes
   - What is Kubernetes
   - Kubernetes architecture
+  - Interacting with Kubernetes
+  - kubectl command
