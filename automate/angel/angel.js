@@ -17,16 +17,19 @@ var text = "I'm really excited about your business. I am a full stack software e
 var buttons = $('button:contains("Apply")')
 
 function waitThenApply() {
-  if ($('textarea[name="note"]').length > 0) {
+  if ($('textarea[name="userNote"]').length > 0) {
     if ($('button[disabled]:contains("Send Application")').length > 0) {
       console.log("Disabled, skip");
       $('button:contains("Cancel")').click();
       apply();
     } else {
       console.log("Waiting then apply");
-      setTimeout(function() {
-        waitThenApply();
-      }, 500);
+      fillPopup(function() {
+        setTimeout(function() {
+          submitPopup();
+          waitThenApply();
+        }, 500);
+      })
     }
   } else {
     apply();
@@ -39,17 +42,21 @@ function fillPopup(success) {
     // Fill the popup
     $('textarea[name="userNote"]').val(text);
     $('textarea[name="userNote"]').trigger('change');
-    success();
+    setTimeout(function() {
+      success();
+    }, 1000);
   } else {
     setTimeout(function() {
+      $('textarea[name="userNote"]').val(text);
+      $('textarea[name="userNote"]').trigger('change');
       console.log("Waiting to fill popup");
       fillPopup(success);
-    }, 500);
+    }, 1000);
   }
 }
 
 function submitPopup() {
-  var submit = $('button:contains("Send Application")');
+  var submit = $('button:contains("Send application")');
   submit.click();
   i = i + 1;
 }

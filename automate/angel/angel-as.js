@@ -14,10 +14,10 @@ var i = 0;
 
 var text = "I'm really excited about your business. I am a full stack software engineer. For the past few years I've focused on mobile development and I worked with lots of companies helping them start, grow and scale their businesses. You can find some of my work on https://github.com/AlexStroia or on https://www.linkedin.com/in/alexandru-stroia/."
 
-var buttons = $('.g-button.blue.apply-now-button')
+var buttons = $('button:contains("Apply")'));
 
 function waitThenApply() {
-  if ($('textarea[name="note"]').length > 0) {
+  if ($('textarea[name="userNote"]').length > 0) {
     sBtn = $(".c-button.c-button--blue:contains('Send')")[0]
     if (sBtn.classList.contains("disabled")) {
       console.log("Already applied");
@@ -35,11 +35,11 @@ function waitThenApply() {
 }
 
 function fillPopup(success) {
-  if ($('textarea[name="note"]').length > 0) {
+  if ($('textarea[name="userNote"]').length > 0) {
     console.log("Filling popup");
     // Fill the popup
-    $('textarea[name="note"]').val(text);
-    $('textarea[name="note"]').trigger('change');
+    $('textarea[name="userNote"]').val(text);
+    $('textarea[name="userNote"]').trigger('change');
     success();
   } else {
     setTimeout(function() {
