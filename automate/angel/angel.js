@@ -18,7 +18,7 @@ var buttons = $('button:contains("Apply")')
 
 function waitThenApply() {
   if ($('textarea[name="userNote"]').length > 0) {
-    if ($('button[disabled]:contains("Send Application")').length > 0) {
+    if ($('button[disabled]:contains("Send application")').length > 0) {
       console.log("Disabled, skip");
       $('button:contains("Cancel")').click();
       apply();
