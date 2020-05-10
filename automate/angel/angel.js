@@ -81,7 +81,7 @@ function apply() {
 
 function loadMore() {
   console.log("loading more");
-  window.scrollTo(0, document.body.scrollHeight);
+  window.scrollTo(0, 2 * document.body.scrollHeight);
   setTimeout(function() {
     console.log("Waiting for new jobs");
     if (buttons.length == $('button:contains("Apply")')) {
