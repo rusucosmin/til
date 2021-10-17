@@ -12,7 +12,10 @@ $.noConflict();
 
 var i = 0;
 
-var text = "I'm really excited about your business. I am a full stack software engineer and I worked with lots of companies helping them start, grow and scale their businesses. You can find some of my work on https://linkedin.com/in/rusucosmin or my Toptal profile https://www.toptal.com/resume/cosmin-rusu or my blog rusu.io."
+// HealthCare
+// var text = "I saw you're working in healthcare, curious how do you find developers comfortable with HIPAA compliance? I've worked with seed and series-A startups to scale their software products from $1M to $4M ARR. It involves... Worth exploring?"
+// General
+var text = "I saw you're looking to hire engineers. Being at top companies like Google and Apple, I know how challenging it is to find amazing talent. I've worked with seed and series-A startups to scale their software products from $1M to $4M ARR. It involves... Worth exploring?"
 
 var buttons = $('button:contains("Apply")')
 
@@ -38,21 +41,22 @@ function fillPopup(success) {
     $('textarea[name="userNote"]').trigger('change');
     setTimeout(function() {
       success();
-    }, 1000);
+    }, 500);
   } else {
     setTimeout(function() {
       $('textarea[name="userNote"]').val(text);
       $('textarea[name="userNote"]').trigger('change');
       console.log("Waiting to fill popup");
       fillPopup(success);
-    }, 1000);
+    }, 500);
   }
 }
 
 function submitPopup() {
   var submit = $('button:contains("Send application")');
-  submit.click();
-  i = i + 1;
+  if (submit) {
+    submit.click();
+  }
 }
 
 function apply() {
@@ -63,6 +67,7 @@ function apply() {
     console.log("Applying for the " + i + "th job");
     // Click the current button
     buttons[i].click();
+    i = i + 1;
     // Wait for the popup to show
     fillPopup(function() {
       submitPopup();
