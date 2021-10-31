@@ -1,21 +1,17 @@
-/*
 
-run this initially to get jQuery available
+// run this initially to get jQuery available
 
 var jq = document.createElement('script');
 jq.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js";
 document.getElementsByTagName('head')[0].appendChild(jq);
-// ... give time for script to load, then type (or see below for non wait option)
-$.noConflict();
 
-*/
-
+setTimeout(function() {
 var i = 0;
 
 // HealthCare
 // var text = "I saw you're working in healthcare, curious how do you find developers comfortable with HIPAA compliance? I've worked with seed and series-A startups to scale their software products from $1M to $4M ARR. It involves... Worth exploring?"
 // General
-var text = "I saw you're looking to hire engineers. Being at top companies like Google and Apple, I know how challenging it is to find amazing talent. I've worked with seed and series-A startups to scale their software products from $1M to $4M ARR. It involves... Worth exploring?"
+var text = "I saw you're looking to hire software engineers. Curios, how do you know if he's gonna be an executor? I've worked with seed and series-A startups as lead, VP or CTO roles to scale their software products from $1M to $4M ARR. It involves... Worth exploring?"
 
 var buttons = $('button:contains("Apply")')
 
@@ -97,3 +93,4 @@ function loadMore() {
 
 console.log("Loaded initial jobs = " + buttons.length);
 apply();
+}, 2000);
