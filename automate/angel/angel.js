@@ -11,7 +11,7 @@ var i = 0;
 // HealthCare
 // var text = "I saw you're working in healthcare, curious how do you find developers comfortable with HIPAA compliance? I've worked with seed and series-A startups to scale their software products from $1M to $4M ARR. It involves... Worth exploring?"
 // General
-var text = "I saw you're looking to hire software engineers. Curios, how do you know if he's gonna be an executor? I've worked with seed and series-A startups as lead, VP or CTO roles to scale their software products from $1M to $4M ARR. It involves... Worth exploring?"
+var text = "I saw you're looking to hire software engineers. Curios, how do you know structure the teams to achieve the higest velocity? I've worked with seed and series-A startups as lead, VP or CTO roles to scale their software team and products from $1M to $4M ARR. It involves... Worth exploring?"
 
 var buttons = $('button:contains("Apply")')
 
